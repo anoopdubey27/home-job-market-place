@@ -11,8 +11,7 @@ import java.sql.Date;
 import java.sql.SQLException;
 import java.sql.Time;
 import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.Iterator;
+import java.util.InputMismatchException; import java.util.Iterator;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -20,7 +19,7 @@ public class App {
 	Scanner sc = AppContext.getScannerInstance();
 	
 	private void createMember(String type) throws SQLException{
-		if(type.equals("Seeker"))
+		if(type.equals("Seek"))
 		{   
 			Seeker seekerOb = new Seeker();
 			Address addressOb= new Address();
